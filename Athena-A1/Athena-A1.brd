@@ -8,8 +8,8 @@
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -9148,7 +9148,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PACKAGE" value="None" x="15.29715" y="57.81675" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PRICE" value="None" x="15.29715" y="57.81675" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="X2" library="OSDZU3_ref_dsn" package="MIKROE_BUS_MINI" value="MIKROE_CLICKMINI" x="57.785" y="1.778" smashed="yes"/>
+<element name="X2" library="OSDZU3_ref_dsn" package="MIKROE_BUS_MINI" value="MIKROE_CLICKMINI" x="40.64" y="3.683" smashed="yes"/>
 <element name="ON/OFF" library="Athena-A1" package="SW_PCM12SMTR" value="PCM12SMTR" x="3.302" y="34.29" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value=" Slide Switch SPDT Surface Mount, Right Angle " x="3.302" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="401-2016-2-ND" x="3.302" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
@@ -9249,10 +9249,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="C33" pad="P$1"/>
 <contactref element="J3" pad="P$7"/>
 <polygon width="0.1524" layer="15">
-<vertex x="0.762" y="60.198"/>
-<vertex x="32.258" y="60.198"/>
-<vertex x="32.258" y="0.762"/>
-<vertex x="0.762" y="0.762"/>
+<vertex x="-0.762" y="60.198"/>
+<vertex x="33.782" y="60.198"/>
+<vertex x="33.782" y="-0.889"/>
+<vertex x="-0.762" y="-0.889"/>
 </polygon>
 <via x="17.0302" y="6.731" extent="1-16" drill="0.254"/>
 <wire x1="17.0302" y1="7.4202" x2="17.103" y2="7.493" width="0.1524" layer="16"/>
@@ -9635,10 +9635,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="J4" pad="P$8"/>
 <contactref element="R21" pad="P$2"/>
 <polygon width="0.1524" layer="2">
-<vertex x="0.762" y="60.198"/>
-<vertex x="32.258" y="60.198"/>
-<vertex x="32.258" y="0.762"/>
-<vertex x="0.762" y="0.762"/>
+<vertex x="-1.524" y="61.087"/>
+<vertex x="34.544" y="61.087"/>
+<vertex x="34.544" y="-1.651"/>
+<vertex x="-1.524" y="-1.651"/>
 </polygon>
 <via x="11.049" y="9.144" extent="1-16" drill="0.254"/>
 <via x="18.7418" y="6.731" extent="1-16" drill="0.254"/>

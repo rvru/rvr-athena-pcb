@@ -2801,55 +2801,61 @@ Interface consisting of a Serial Data Input (SI), Serial Data Output (SO), Seria
 <text x="81.28" y="144.78" size="3.81" layer="150" ratio="12">RVR Lab, Rice University, Houston TX</text>
 <text x="71.12" y="154.94" size="5.08" layer="150">Athena Design Rev. A1 Schematic</text>
 <text x="210.82" y="2.54" size="2.1844" layer="150">Designed in EAGLE 9.6.2.</text>
-<text x="63.5" y="109.22" size="2.54" layer="150" font="vector">The first RISC-V development board at Rice University, featuring the SiFive FE310
+<text x="60.96" y="114.3" size="2.54" layer="150" font="vector">The first RISC-V development board at Rice University, featuring the SiFive FE310
 microprocessor, Athena is a prototyping and experimental platform for education
 and research at Rice.  It is intended to be used in undergraduate lab courses and
 in VIP projects, therefore the design focus is on debug capability and I/O access.</text>
-<text x="114.3" y="91.44" size="2.54" layer="150" ratio="12">July 25, 2022</text>
+<text x="111.76" y="99.06" size="2.54" layer="150" ratio="12">July 25, 2022</text>
 <wire x1="0" y1="0" x2="0" y2="185.42" width="0.508" layer="94"/>
 <wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.508" layer="94"/>
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.508" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.508" layer="94"/>
-<wire x1="63.5" y1="81.28" x2="81.28" y2="81.28" width="0.1524" layer="94"/>
-<wire x1="81.28" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="81.28" x2="193.04" y2="71.12" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="71.12" x2="193.04" y2="63.5" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="63.5" x2="193.04" y2="55.88" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="55.88" x2="193.04" y2="48.26" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="48.26" x2="193.04" y2="40.64" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="40.64" x2="193.04" y2="33.02" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="33.02" x2="193.04" y2="25.4" width="0.1524" layer="94"/>
-<wire x1="193.04" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="94"/>
-<wire x1="81.28" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="25.4" x2="63.5" y2="33.02" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="33.02" x2="63.5" y2="40.64" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="40.64" x2="63.5" y2="48.26" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="48.26" x2="63.5" y2="55.88" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="55.88" x2="63.5" y2="63.5" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="63.5" x2="63.5" y2="71.12" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="71.12" x2="63.5" y2="81.28" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="94"/>
-<wire x1="81.28" y1="81.28" x2="81.28" y2="25.4" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="94"/>
-<wire x1="63.5" y1="33.02" x2="193.04" y2="33.02" width="0.1524" layer="94"/>
-<text x="66.04" y="73.66" size="2.54" layer="150" font="vector" ratio="12">Sheet</text>
-<text x="66.04" y="66.04" size="2.54" layer="150" ratio="12">1</text>
-<text x="86.36" y="58.42" size="2.54" layer="150" ratio="12">Power: USB, Charging, Voltage Regulators</text>
-<text x="86.36" y="50.8" size="2.54" layer="150" ratio="12">Debug Control: MK22 Processor</text>
-<text x="86.36" y="66.04" size="2.54" layer="150" ratio="12">Cover Page</text>
-<text x="86.36" y="43.18" size="2.54" layer="150" ratio="12">Main Processor: SiFive FE310, the RISC-V MCU</text>
-<text x="86.36" y="35.56" size="2.54" layer="150" ratio="12">Peripherals: Oscillators, Flash Memory</text>
-<text x="86.36" y="27.94" size="2.54" layer="150" ratio="12">I/O Headers: mikroBus-Compatible, GPIO, and Power; Mechanical</text>
-<text x="66.04" y="58.42" size="2.54" layer="150" ratio="12">2</text>
-<text x="66.04" y="50.8" size="2.54" layer="150" ratio="12">3</text>
-<text x="66.04" y="43.18" size="2.54" layer="150" ratio="12">4</text>
-<text x="66.04" y="35.56" size="2.54" layer="150" ratio="12">5</text>
-<text x="66.04" y="27.94" size="2.54" layer="150" ratio="12">6</text>
-<text x="86.36" y="73.66" size="2.54" layer="150" font="vector" ratio="12">Description</text>
-<text x="7.62" y="2.54" size="5.08" layer="150" font="vector">ADD A COPYRIGHT AND LICENSE STATEMENT HERE</text>
+<wire x1="60.96" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="94"/>
+<wire x1="78.74" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="88.9" x2="190.5" y2="78.74" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="78.74" x2="190.5" y2="71.12" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="71.12" x2="190.5" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="63.5" x2="190.5" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="55.88" x2="190.5" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="48.26" x2="190.5" y2="40.64" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="40.64" x2="190.5" y2="33.02" width="0.1524" layer="94"/>
+<wire x1="190.5" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="94"/>
+<wire x1="78.74" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="33.02" x2="60.96" y2="40.64" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="40.64" x2="60.96" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="48.26" x2="60.96" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="55.88" x2="60.96" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="63.5" x2="60.96" y2="71.12" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="71.12" x2="60.96" y2="78.74" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="78.74" x2="60.96" y2="88.9" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="94"/>
+<wire x1="78.74" y1="88.9" x2="78.74" y2="33.02" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="48.26" x2="190.5" y2="48.26" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="94"/>
+<text x="63.5" y="81.28" size="2.54" layer="150" font="vector" ratio="12">Sheet</text>
+<text x="63.5" y="73.66" size="2.54" layer="150" ratio="12">1</text>
+<text x="83.82" y="66.04" size="2.54" layer="150" ratio="12">Power: USB, Charging, Voltage Regulators</text>
+<text x="83.82" y="58.42" size="2.54" layer="150" ratio="12">Debug Control: MK22 Processor</text>
+<text x="83.82" y="73.66" size="2.54" layer="150" ratio="12">Cover Page</text>
+<text x="83.82" y="50.8" size="2.54" layer="150" ratio="12">Main Processor: SiFive FE310, the RISC-V MCU</text>
+<text x="83.82" y="43.18" size="2.54" layer="150" ratio="12">Peripherals: Oscillators, Flash Memory</text>
+<text x="83.82" y="35.56" size="2.54" layer="150" ratio="12">I/O Headers: mikroBus-Compatible, GPIO, and Power; Mechanical</text>
+<text x="63.5" y="66.04" size="2.54" layer="150" ratio="12">2</text>
+<text x="63.5" y="58.42" size="2.54" layer="150" ratio="12">3</text>
+<text x="63.5" y="50.8" size="2.54" layer="150" ratio="12">4</text>
+<text x="63.5" y="43.18" size="2.54" layer="150" ratio="12">5</text>
+<text x="63.5" y="35.56" size="2.54" layer="150" ratio="12">6</text>
+<text x="83.82" y="81.28" size="2.54" layer="150" font="vector" ratio="12">Description</text>
+<text x="7.62" y="5.08" size="1.778" layer="150" font="vector">Copyright © 2022 Rice University
+Permission is hereby granted, free of charge, to any person obtaining a copy of this design and associated documentation files (the “Design”), to deal in  the Design without restriction, including without 
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the  Design, and to permit persons to whom the Design is furnished to do so, subject to the following 
+conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Design.
+The Design is provided "as is", without warranty of any kind, express of implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no 
+event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of, or in connection with the Design or 
+the use or other dealings in the Design.</text>
 </plain>
 <instances>
 </instances>
